@@ -1,6 +1,6 @@
 package br.ufpb.dcx.aps.miniteste03;
 
-public class TelaVideoGame {
+public class EscolhaVideoGame {
 	private VideoGame videoGame;
 	
 	public void setVideoGame(VideoGame console) {
@@ -8,7 +8,7 @@ public class TelaVideoGame {
 	}
 	
 	public String infoConsole() {
-		return this.videoGame.infoVideoGame();
+		return this.videoGame.infoVideoGame() + this.videoGame.infoGame().pegarGame();
 	}
 
 }

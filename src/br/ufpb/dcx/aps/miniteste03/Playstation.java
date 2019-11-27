@@ -4,7 +4,12 @@ public class Playstation implements VideoGame {
 
 	@Override
 	public String infoVideoGame() {
-		return "Empresa: Sony \nModelo: Playstation";
+		return "Empresa: Sony \nModelo: Playstation\n";
+	}
+
+	@Override
+	public Game infoGame() {
+		return new ShadowOfTheColossus();
 	}
 
 }
